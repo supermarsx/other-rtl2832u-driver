@@ -1,0 +1,594 @@
+[Version]
+Signature = "$CHICAGO$"
+Class = MEDIA
+ClassGUID = {4d36e96c-e325-11ce-bfc1-08002be10318}
+provider = %VENDER%
+CatalogFile = RTL2832U.cat
+DriverVer = 10/12/2010,86.001.1012.2010
+
+[DestinationDirs]
+RTLUSBDEV.Files.Ext = 10,System32\Drivers
+
+[SourceDisksNames]
+1=%DiskName1%
+
+[SourceDisksFiles]
+RTL2832UBDA.sys = 1
+RTL2832UUSB.sys = 1
+
+[Manufacturer]
+%VenderName% = DeviceList
+
+[DeviceList]
+%RTLUSBDEV.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2838&MI_00
+%RTLUSBDTMB.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2839&MI_00
+%AZUSB.DeviceDesc%=AZUSB, USB\VID_13D3&PID_3274&MI_00 
+%DKUSB.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1101&MI_00
+%DKMINIUSB.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1102&MI_00
+%DK5217.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1103&MI_00
+%DKMSI.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1104&MI_00
+%DK05.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1105&MI_00
+%DK06.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1106&MI_00
+%GT.DeviceDesc%=GT, USB\VID_1F4D&PID_0837&MI_00 
+%RTLUSBDEV.DeviceDesc%=RTLUSBDEV, USB\VID_1554&PID_5013&MI_00
+%RTLUSBDEV.DeviceDesc%=RTLUSBDEV, USB\VID_1554&PID_5020&MI_00
+%DTVDEV.DeviceDesc%=DTVDEV, USB\VID_0BDA&PID_2837&MI_00
+%GTA.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_A803&MI_00 
+%GTB.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_B803&MI_00 
+%GTC.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_C803&MI_00 
+%GTD.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_D803&MI_00
+%GTE.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_C280&MI_00
+%GTF.DeviceDesc%=RTLUSBDEV, USB\VID_1F4D&PID_D286&MI_00
+%GTG.DeviceDesc%=GT2, USB\VID_1F4D&PID_0139&MI_00
+%GTH.DeviceDesc%=GT2, USB\VID_1F4D&PID_A683&MI_00
+%RTLUSBDVBC.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2841&MI_00
+%DK07.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_2101&MI_00
+%DK08.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_8202&MI_00
+%DK09.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_9201&MI_00
+%DK11.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_3103&MI_00
+%RTLUSBISDBT1seg.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2821&MI_00
+%RTLUSBISDBTFseg.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2823&MI_00
+%RTLUSBATSC.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2811&MI_00
+%RTLUSBMR1300.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2825&MI_00
+
+ 
+;Mini Card 
+%RTLUSBDEV.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2832
+%RTLUSBDTMB.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2836
+%RTLUSBDVBC.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2840
+%RTLUSBDEV.DeviceDesc%=RTLUSBDEV, USB\VID_1680&PID_A332  
+%YU.DeviceDesc%=YU, USB\VID_1164&PID_6601
+%AZMINICARD.DeviceDesc%=AZMINICARD, USB\VID_13D3&PID_3234
+%AZGPSTV.DeviceDesc%=AZGPSTV, USB\VID_13D3&PID_3282
+%KW.DeviceDesc%=KW, USB\VID_1B80&PID_D397
+%HVSOEM.DeviceDesc%=HVSOEM, USB\VID_1B80&PID_D393
+%HVSOEM2nd.DeviceDesc%=HVSOEM2nd, USB\VID_1B80&PID_D396
+%HVSOEM2nd.DeviceDesc%=HVSOEM2nd, USB\VID_1B80&PID_D398
+%DTVDEV.DeviceDesc%=DTVDEV, USB\VID_0BDA&PID_2834
+%HVSOEM.DeviceDesc%=HVSOEM, USB\VID_1B80&PID_D394
+%KW2.DeviceDesc%=HVSOEM, USB\VID_1B80&PID_D39C
+%HVSOEM.DeviceDesc%=HVSOEM, USB\VID_1B80&PID_D39B
+%HVSOEM.DeviceDesc%=HVSOEM, USB\VID_1B80&PID_D395
+%HVSOEM.DeviceDesc%=HVSOEM2nd, USB\VID_1B80&PID_D39A
+%CP.DeviceDesc%=CP, USB\VID_185B&PID_0620
+%CP.DeviceDesc%=CP, USB\VID_185B&PID_0630
+%CP.DeviceDesc%=CP, USB\VID_185B&PID_0640
+%CP.DeviceDesc%=CP, USB\VID_185B&PID_0650
+%CP.DeviceDesc%=CP, USB\VID_185B&PID_0680
+%LT.DeviceDesc%=LT, USB\VID_0413&PID_6680
+%LT2.DeviceDesc%=LT2, USB\VID_0413&PID_6F11
+%RTLUSBISDBT1seg.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2820
+%RTLUSBISDBTFseg.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2822
+%RTLUSBATSC.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2810
+%KW3.DeviceDesc%=HVSOEM2nd, USB\VID_1B80&PID_739E
+%CP2.DeviceDesc%=CP2, USB\VID_185B&PID_9580
+%CP2.DeviceDesc%=CP2, USB\VID_185B&PID_9550
+%CP2.DeviceDesc%=CP2, USB\VID_185B&PID_9540
+%CP2.DeviceDesc%=CP2, USB\VID_185B&PID_9530
+%CP2.DeviceDesc%=CP2, USB\VID_185B&PID_9520
+%KW4.DeviceDesc%=KW4, USB\VID_1B80&PID_D39E
+%KW4.DeviceDesc%=KW4, USB\VID_1B80&PID_E77B
+%KW4.DeviceDesc%=KW4, USB\VID_1B80&PID_D39F
+%RTLUSBMR1300.DeviceDesc%=RTLUSBDEV, USB\VID_0BDA&PID_2824
+%DK10.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_1107
+%DK12.DeviceDesc%=RTLUSBDEV, USB\VID_1D19&PID_9202
+
+
+
+[RTLUSBDEV.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[YU.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[AZMINICARD.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[AZUSB.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[AZGPSTV.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[KW.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[HVSOEM.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[HVSOEM2nd.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[GT.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[GT2.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[DTVDEV.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+
+[LT.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[LT2.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+
+[CP.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[CP2.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+[KW4.NT]
+Include    = ks.inf, kscaptur.inf, bda.inf
+Needs      = KS.Registration,KSCAPTUR.Registration.NT, BDA.Installation.NT
+CopyFiles  = RTLUSBDEV.Files.Ext
+
+
+[RTLUSBDEV.Files.Ext]
+RTL2832UUSB.sys
+RTL2832UBDA.sys,,,2
+
+[RTLUSBDEV.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[YU.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[AZMINICARD.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[AZUSB.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[AZGPSTV.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[KW.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[HVSOEM.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[HVSOEM2nd.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[GT.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[GT2.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[DTVDEV.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[LT.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[LT2.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[CP.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[CP2.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+[KW4.NT.Services]
+Addservice = RTL2832UUSB, 0x00000002, USB.AddService
+Addservice = RTL2832UBDA, ,BDA.AddService
+
+
+[USB.AddService]
+DisplayName    = %RTLUSBDEV.USB_Desc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\RTL2832UUSB.sys
+AddReg         = USB.AddReg
+LoadOrderGroup = Base
+
+[USB.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,RTL2832UUSB.sys
+
+[BDA.AddService] 
+DisplayName    = %RTLUSBDEV.BDA_Desc%                      			
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %10%\system32\drivers\RTL2832UBDA.sys
+AddReg         = BDA.AddReg
+
+[BDA.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,RTL2832UBDA.sys
+HKR,,PageOutWhenUnopened,3,01
+HKR,,FilterNameNumber,0x10001,18
+HKR,,FilterName1,,VideoMate TV U100 
+HKR,,FilterName2,,Digital Tuner Card
+HKR,,FilterName3,,AD-TM210
+HKR,,FilterName4,,AD-TU230
+HKR,,FilterName5,,AW-CA100
+HKR,,FilterName6,,UB450-T
+HKR,,FilterName7,,USB Digital TV
+HKR,,FilterName8,,DVB-T Dongle
+HKR,,FilterName9,,DTV
+HKR,,FilterName10,,TV Stick
+HKR,,FilterName11,,VideoMate U6xx DTV Filter
+HKR,,FilterName12,,QUAD DVB-T
+HKR,,FilterName13,,PxDTV3000 TS
+HKR,,FilterName14,,Digital TV
+HKR,,FilterName15,,VideoMate J5xxU DTV Filter
+HKR,,FilterName16,,Realtek BDA Tuner
+HKR,,FilterName17,,REALTEK DTV Filter
+
+
+[RTLUSBDEV.NT.HW]
+AddReg = BDA.UpperFilter.AddReg			 			
+
+[YU.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[AZMINICARD.NT.HW]
+AddReg = BDA.UpperFilter.AddReg			 			
+
+[AZUSB.NT.HW]
+AddReg = BDA.UpperFilter.AddReg			 			
+
+[AZGPSTV.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[KW.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[HVSOEM.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[HVSOEM2nd.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[GT.NT.HW]
+AddReg = BDA.UpperFilter.AddReg
+
+[GT2.NT.HW]
+AddReg = BDA.UpperFilter.AddReg
+
+[DTVDEV.NT.HW]
+AddReg = BDA.UpperFilter.AddReg			 			
+
+[LT.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[LT2.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[CP.NT.HW]
+AddReg = BDA.UpperFilter.AddReg	
+
+[CP2.NT.HW]
+AddReg = BDA.UpperFilter.AddReg
+
+[KW4.NT.HW]
+AddReg = BDA.UpperFilter.AddReg
+
+[BDA.UpperFilter.AddReg]                       	 			
+HKR,,"UpperFilters",0x00010000,"RTL2832UBDA"   			
+
+[RTLUSBDEV.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, RTLUSBDEV.TunerFilter.Interface
+
+[RTLUSBDEV.TunerFilter.Interface]
+AddReg = RTLUSBDEV.TunerFilter.Interface.AddReg
+
+[RTLUSBDEV.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%RTL2832UTuner.FilterDesc%
+
+
+[YU.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, YU.TunerFilter.Interface
+
+[YU.TunerFilter.Interface]
+AddReg = YU.TunerFilter.Interface.AddReg
+
+[YU.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%YUTuner.FilterDesc%
+
+
+[AZMINICARD.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, AZMINICARD.TunerFilter.Interface
+
+[AZMINICARD.TunerFilter.Interface]
+AddReg = AZMINICARD.TunerFilter.Interface.AddReg
+
+[AZMINICARD.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%AZMINICARDTuner.FilterDesc%
+
+
+[AZUSB.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, AZUSB.TunerFilter.Interface
+
+[AZUSB.TunerFilter.Interface]
+AddReg = AZUSB.TunerFilter.Interface.AddReg
+
+[AZUSB.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%AZUSBTuner.FilterDesc%
+
+
+[AZGPSTV.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, AZGPSTV.TunerFilter.Interface
+
+[AZGPSTV.TunerFilter.Interface]
+AddReg = AZGPSTV.TunerFilter.Interface.AddReg
+
+[AZGPSTV.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%AZGPSTVTuner.FilterDesc%
+
+
+
+[KW.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, KW.TunerFilter.Interface
+
+[KW.TunerFilter.Interface]
+AddReg = KW.TunerFilter.Interface.AddReg
+
+[KW.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%KWTuner.FilterDesc%
+
+
+[HVSOEM.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, HVSOEM.TunerFilter.Interface
+
+[HVSOEM.TunerFilter.Interface]
+AddReg = HVSOEM.TunerFilter.Interface.AddReg
+
+[HVSOEM.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%HVSOEMTuner.FilterDesc%
+
+
+[HVSOEM2nd.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, HVSOEM2nd.TunerFilter.Interface
+
+[HVSOEM2nd.TunerFilter.Interface]
+AddReg = HVSOEM2nd.TunerFilter.Interface.AddReg
+
+[HVSOEM2nd.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%HVSOEM2ndTuner.FilterDesc%
+
+
+[GT.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, GT.TunerFilter.Interface
+
+[GT.TunerFilter.Interface]
+AddReg = GT.TunerFilter.Interface.AddReg
+
+[GT.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%GTTuner.FilterDesc%
+
+
+[GT2.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, GT2.TunerFilter.Interface
+
+[GT2.TunerFilter.Interface]
+AddReg = GT2.TunerFilter.Interface.AddReg
+
+[GT2.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%GT2Tuner.FilterDesc%
+
+
+[DTVDEV.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, DTVDEV.TunerFilter.Interface
+
+[DTVDEV.TunerFilter.Interface]
+AddReg = DTVDEV.TunerFilter.Interface.AddReg
+
+[DTVDEV.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%DTVTuner.FilterDesc%
+
+
+[LT.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, LT.TunerFilter.Interface
+
+[LT.TunerFilter.Interface]
+AddReg = LT.TunerFilter.Interface.AddReg
+
+[LT.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%LTTuner.FilterDesc%
+
+
+[LT2.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, LT2.TunerFilter.Interface
+
+[LT2.TunerFilter.Interface]
+AddReg = LT2.TunerFilter.Interface.AddReg
+
+[LT2.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%LT2Tuner.FilterDesc%
+
+
+[CP.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, CP.TunerFilter.Interface
+
+[CP.TunerFilter.Interface]
+AddReg = CP.TunerFilter.Interface.AddReg
+
+[CP.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CPTuner.FilterDesc%
+
+
+[CP2.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, CP2.TunerFilter.Interface
+
+[CP2.TunerFilter.Interface]
+AddReg = CP2.TunerFilter.Interface.AddReg
+
+[CP2.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%CP2Tuner.FilterDesc%
+
+
+[KW4.NT.Interfaces]
+AddInterface = %KSCATEGORY_BDATuner%, %KSSTRING_RTL2832UTunerFilter%, KW4.TunerFilter.Interface
+
+[KW4.TunerFilter.Interface]
+AddReg = KW4.TunerFilter.Interface.AddReg
+
+[KW4.TunerFilter.Interface.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%KW4Tuner.FilterDesc%
+
+[Strings]
+Proxy.CLSID = "{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_BDATuner = "{71985F48-1CA1-11d3-9CC8-00C04F7971E0}"
+KSCATEGORY_BDACapture = "{FD0A5AF4-B41D-11d2-9C95-00C04F7971E0}"
+KSSTRING_RTL2832UTunerFilter = "{9d4afc32-0f42-45d9-b590-af9295699871}"
+
+VenderName = "Realtek"
+VENDER = "REALTEK"
+RTL2832UTuner.FilterDesc = "REALTEK DTV Filter"
+YUTuner.FilterDesc = "Digital Tuner Card"
+AZMINICARDTuner.FilterDesc = "AD-TM210"
+AZUSBTuner.FilterDesc = "AD-TU230"
+AZGPSTVTuner.FilterDesc = "AW-CA100"
+KWTuner.FilterDesc = "UB450-T"
+HVSOEMTuner.FilterDesc = "DVB-T Dongle"
+HVSOEM2ndTuner.FilterDesc = "USB Digital TV"
+GTTuner.FilterDesc = "DTV"
+GT2Tuner.FilterDesc = "Digital TV"
+DTVTuner.FilterDesc = "TV Stick"
+CPTuner.FilterDesc = "VideoMate U6xx DTV Filter"
+CP2Tuner.FilterDesc = "VideoMate J5xxU DTV Filter"
+LTTuner.FilterDesc = "QUAD DVB-T"
+LT2Tuner.FilterDesc = "PxDTV3000 TS"
+KW4Tuner.FilterDesc = "Realtek BDA Tuner"
+
+RTLUSBDEV.DeviceDesc = "REALTEK 2832U Device"
+RTLUSBDTMB.DeviceDesc = "REALTEK 2832P + 2836 Device"
+RTLUSBDVBC.DeviceDesc = "DVB-C PCTV Tuner"
+YU.DeviceDesc = "Digital TV Tuner Card"
+AZMINICARD.DeviceDesc = "DVB-T FTA USB Half Minicard"
+AZUSB.DeviceDesc = "DVB-T USB Dongle"
+AZGPSTV.DeviceDesc = "AzureWave AW-CA100/100D"
+KW.DeviceDesc = "UB450-T"
+HVSOEM.DeviceDesc = "USB DVB-T Device"
+HVSOEM2nd.DeviceDesc = "USB DVB-T Device"
+DKUSB.DeviceDesc = "DK DVBT DONGLE"
+DKMINIUSB.DeviceDesc = "DK mini DVBT DONGLE"
+DK5217.DeviceDesc = "DK 5217 DVBT DONGLE"
+DKMSI.DeviceDesc = "DIGIVOX Micro HD"
+DK05.DeviceDesc = "DK S-mini DVBT DONGLE"
+DK06.DeviceDesc = "DK 5222 DVBT DONGLE"
+DK07.DeviceDesc = "DK ATSC DONGLE"
+DK08.DeviceDesc = "DK DVBC/T DONGLE"
+DK09.DeviceDesc = "DK DTMB DONGLE"
+DK10.DeviceDesc = "DK mini-card"
+DK11.DeviceDesc = "DK ISDB DONGLE"
+DK12.DeviceDesc = "DK DMBT mini card"
+GT.DeviceDesc = "RT DTV 2832U"
+DTVDEV.DeviceDesc = "TV Stick"
+GTA.DeviceDesc = "DVB-T TV Stick"
+GTB.DeviceDesc = "DVBT/Radio TV Stick"
+GTC.DeviceDesc = "DVBT/DAB TV Stick"
+GTD.DeviceDesc = "DVBT/DAB+ TV Stick"
+GTE.DeviceDesc = "DVBT/C TV Stick"
+GTF.DeviceDesc = "DVBT/DTMB TV Stick"
+GTG.DeviceDesc = "ISDB-T(SBTVD) PCTV Tuner"
+GTH.DeviceDesc = "ATSC PCTV Tuner"
+KW2.DeviceDesc = "MP-ProHDTV Multi"
+KW3.DeviceDesc = "USB SBTVD Device"
+CP.DeviceDesc = "VideoMate U6xx"
+CP2.DeviceDesc = "VM J500U Series"
+LT.DeviceDesc = "QUAD DVB-T"
+LT2.DeviceDesc = "WinFast PxDTV3000 TS"
+RTLUSBISDBT1seg.DeviceDesc = "ISDB-T(SBTVD)-1seg"
+RTLUSBISDBTFseg.DeviceDesc = "ISDB-T(SBTVD)-Fullseg"
+RTLUSBATSC.DeviceDesc = "ATSC PCTV Tuner"
+KW4.DeviceDesc = "Digital TV Device"
+RTLUSBMR1300.DeviceDesc = "ISDB-T(MR1300)-1seg"
+
+RTLUSBDEV.USB_Desc = "REALTEK 2832U USB Driver"
+RTLUSBDEV.BDA_Desc = "REALTEK 2832U BDA Driver"
+
+DiskName1 = "RTL2832U Device installation disk"
