@@ -13,6 +13,7 @@ Used in Applications like:
 - DAB
 - DAB+
 - DVB-T
+- DVB-C
 - Emergency/Ambulance/Fire/Police Communications
 - Aircraft Traffic Control
 - Aircraft Positions (Radar like)
